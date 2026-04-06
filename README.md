@@ -3,34 +3,36 @@
 CS undergrad building production-grade systems — distributed backend infrastructure in Go to ML platforms with real deployments.
 
 **Currently:** 6th semester @ PES University, Bengaluru | Expected graduation 2027  
-**Looking for:** Backend or software engineering internships where I can contribute from day one
+**Looking for:** Backend or ML engineering internships where I can contribute from day one
 
 ## 🚀 Featured Projects
 
-### [Conduit](https://github.com/411sst/conduit-event-system) - Distributed Real-Time Event Delivery System
+### [Conduit](https://github.com/411sst/conduit-event-system) - Distributed Pub/Sub System
 Distributed pub/sub system in Go with at-least-once delivery guarantees, WAL-based persistence, and consistent hashing.
 - **Live:** [conduit-i90v.onrender.com](https://conduit-i90v.onrender.com)
-- **Performance:** 25k msg/sec raw throughput, 3k msg/sec with full durability
+- **Performance:** 25k msg/sec raw throughput, 3k msg/sec with full WAL durability
 - **Tech:** Go, PostgreSQL, Redis, React, k6
 
-### [Stock Analytics Platform](https://github.com/411sst/Stock-Analyzer) - AI-Powered Market Analysis
-Production ML platform on Streamlit Cloud with ensemble forecasting and risk analysis.
-- **Live:** [411-stock-analyzer.streamlit.app](https://411-stock-analyzer.streamlit.app)
-- **Features:** 7-model ensemble (LSTM, ARIMA, RF), VaR calculation, NLP sentiment
-- **Tech:** Python, TensorFlow, Streamlit, PostgreSQL
+### [MiniRAFT](https://github.com/411sst/MiniRAFT) - Raft Consensus Engine
+Raft consensus implementation in Go — leader election, WAL-fsynced log replication, and single-RPC catch-up across a 3-replica cluster.
+- **Tech:** Go, gRPC, Protobuf, Docker
 
-### [Crisis Network Analysis](https://github.com/411sst/crisis-network-analysis) - Social Behavior Platform
-Research platform analyzing social behavior during crisis events with multi-layer network analysis.
-- **Features:** 4 network representations, Louvain community detection, novel Resonance+ metric
-- **Tech:** Python, NetworkX, Streamlit, PRAW
+### [SensorLens](https://github.com/411sst/SensorLens) - Manufacturing Anomaly Detection
+AI-powered anomaly detection platform for CNC manufacturing with LLM-generated explanations.
+- **Live:** [sensorlens.streamlit.app](https://sensorlens.streamlit.app)
+- **Tech:** Python, FastAPI, scikit-learn, Groq, LLaMA 3.3-70B, Streamlit
+
+### Multimodal Patient Monitoring System *(private)* - Capstone (Intel)
+Multimodal agentic system for real-time ICU patient deterioration detection — ECG, hemodynamic vitals, computer vision, and clinical notes.
+- **Tech:** Python, PyTorch, Neo4j, scikit-learn
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python • Go • Java • C/C++ • SQL • JavaScript/TypeScript  
-**Backend:** Streamlit • Flask • WebSockets • REST APIs  
-**Databases:** PostgreSQL • SQLite • Redis  
-**ML/AI:** TensorFlow • scikit-learn • pandas • NumPy • NetworkX  
-**Tools:** Git • Docker • Linux • pytest • k6
+**Languages:** Go • Python • Java • C/C++ • SQL • JavaScript/TypeScript  
+**Backend:** FastAPI • gRPC • Protobuf • REST API • WebSockets • Docker • Kubernetes  
+**Databases:** PostgreSQL • Redis • SQLite  
+**ML/AI:** scikit-learn • PyTorch • TensorFlow • pandas • NumPy • Groq • LLaMA • HuggingFace  
+**Tools:** Git • k6 • pytest • Linux • Prometheus
 
 ## 📫 Connect
 
@@ -40,4 +42,4 @@ Research platform analyzing social behavior during crisis events with multi-laye
 
 ---
 
-💡 *Open to backend/SWE internship opportunities • Building systems that scale*
+💡 *Open to backend/ML engineering internship opportunities • Building systems that scale*
