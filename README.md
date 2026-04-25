@@ -23,7 +23,7 @@ Anomaly detection platform for CNC manufacturing with Isolation Forest and LLM-g
 - **Live:** [sensorlens.streamlit.app](https://sensorlens.streamlit.app)
 - **Tech:** Python, FastAPI, scikit-learn, Groq, LLaMA 3.3-70B, Streamlit
 
-### Multimodal Patient Monitoring System *(private)* — Capstone (Intel)
+### Multimodal Patient Monitoring System
 Multimodal agentic system for real-time ICU deterioration detection — ECG, hemodynamic vitals, computer vision, and clinical notes. Built a rejection sampling pipeline enforcing physiological consistency across 2,198 synthetic profiles with zero train/test leakage.
 - **Tech:** Python, PyTorch, scikit-learn, Neo4j, FastAPI
 
