@@ -3,7 +3,6 @@
 CS undergrad building production-grade systems — distributed backend infrastructure in Go to ML platforms with real deployments.
 
 **Currently:** 6th semester @ PES University, Bengaluru | Expected graduation 2027  
-**Looking for:** Backend or ML engineering internships where I can contribute from day one
 
 ---
 
@@ -46,5 +45,3 @@ Multimodal agentic system for real-time ICU deterioration detection — ECG, hem
 - **Location:** Bengaluru, Karnataka, India
 
 ---
-
-💡 *Open to backend/ML engineering internship opportunities · Building systems that scale*
